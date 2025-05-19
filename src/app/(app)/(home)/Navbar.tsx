@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Button } from "../../components/ui/button";
+import { Button } from "../../../components/ui/button";
 import { Poppins } from "next/font/google";
 import NavbarSidebar from "./navbar-sidebar";
 import { MenuIcon } from "lucide-react";
