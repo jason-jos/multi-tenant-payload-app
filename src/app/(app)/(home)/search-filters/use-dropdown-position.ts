@@ -9,7 +9,7 @@ export const useDropdownPosition=(ref:RefObject<HTMLDivElement |null>|RefObject<
         const dropdownWidth=240 //width of dropdown (w-60=15rem=240px)
 
         //Calculate the postion
-        let left =rect?.left+window.screenX 
+        let left =rect?.left+window.scrollX 
         const top=rect?.bottom+window.scrollY
 
         //check if the dropdown would flow out the right edge of the viewport
