@@ -21,7 +21,7 @@ const layout = async ({children}:PropType) => {
       parent:{
         exists:false
       }
-    }
+    },sort:'name'
   })
 
   const formattedDoc = data.docs.map((doc) => ({
