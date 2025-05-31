@@ -66,7 +66,7 @@ const Catergories = ({data}:CategoriesPropTypes) => {
   return (
     <div className="relative w-full ">
       {/*Categories sidebar */}
-      <CategoriesSidebar open={isSideBarOpen} onOpenChange={setIsSideBarOpen} data={data}/>
+      <CategoriesSidebar open={isSideBarOpen} onOpenChange={setIsSideBarOpen}/>
       
       {/*div hidden to measure all items */}
       <div
