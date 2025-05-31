@@ -44,7 +44,7 @@ const layout = async ({children}:PropType) => {
 
   const queryClient=getQueryClient()
   //await to avoid hydration error 
-    void await queryClient.prefetchQuery(  
+    await queryClient.prefetchQuery(  
     trpc.categories.getMany.queryOptions())
 
   return (
